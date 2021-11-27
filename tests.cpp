@@ -47,7 +47,7 @@ TEST_CASE("Testing Task C"){
 	nw3.addUser("c", "come on");
 	
 	CHECK(nw3.follow("a", "b") == true);
-	CHECK(nw3.follow("a", "b") == false); //"a" is already followed to "b"
+	CHECK(nw3.follow("a", "b") == true); //"a" is still following "b"
 	CHECK(nw3.follow("a", "c") == true);
 	CHECK(nw3.follow("c", "a") == true);
 	CHECK(nw3.follow("c", "b") == true);

@@ -60,7 +60,6 @@ bool Network::follow(std::string usrn1, std::string usrn2){
 	int id2 = Network::findID(usrn2);
 	
 	if (id1 == -1 || id2 == -1) return false;
-	else if (following[id1][id2] == true) return false;
 	else return following[id1][id2] = true;
 }
 
