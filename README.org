@@ -1,13 +1,15 @@
 * Fall 2021 - Lab 11
 
-* Last name:
+* Last name: Lin
 
-* First name:
+* First name: Zhipeng
 
-* GitHub username:
+* GitHub username: RBT0101
 
 * Notes:
-
+	The tests from main.cpp are taken 
+	from the website where we view the
+	lab. Different tests are provided in tests.cpp.
 
   
 * General instructions:
